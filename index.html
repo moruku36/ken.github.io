@@ -9,21 +9,57 @@
   <!--no download bootstrap-4.0.0-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
+   <style>
+   .box-container{
+     width: 100px;
+     height:100px;
+     background: #ddd;
+     margin-bottom:5px
+
+   }
+   </style>
+
 </head>
+<body>
+  <!--
+[p|m][location][size]
+
+location:
+-t,b,l,r
+-x,y
+
+size:
+-0
+-1:0.25rem
+-2:0.5rem
+-3:1.0rem
+-4-
+-auto
+-->
+</body>
+
 
 <body>
   <h1>moruku36です
     <header style="background-color:gray">Header</header>
 
+<div class="box-container">
+  <div class="bg-primary w-25 h-50 pt-3">box</div>
+</div>
+
+<div class="box-container">
+  <div class="bg-success w-75 h-100 my-0 mx-auto">box</div>
+</div>
+
 <div class="text-center bg-primary">BOX</div>
-<div class="text-center bg-success text-warning">BOX</div>
-<div class="text-center bg-danger">BOX</div>
-<div class="text-center bg-info">BOX</div>
+<div class="text-right bg-success text-warning">BOX</div>
+<div class="text-left bg-danger">BOX</div>
+<div class="text-center bg-info font-weight-bold">BOX</div>
 <footer style="background-color:gray">Footer</footer>
   </h1>
 
 
-  <h2>こんにちは〜</h2>
+  <h2 class="font-weight-nomal">Hello bootstrap</h2>
   <h3>ホームページ制作中・・・</h3>
   <!--these three scripts need before </body>-->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
